@@ -1,0 +1,30 @@
+{
+    "name": "kazan/barebones",
+    "description": "Barebones kickstart package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Iván N Paz",
+            "email": "ivannpaz@gmail.com",
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/yaml": "~2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.2",
+        "symfony/yaml": "~2.0"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {
+        "psr-0": {
+            "": "src"
+        },
+        "classmap": [
+            "tests/"
+        ]
+    }
+}

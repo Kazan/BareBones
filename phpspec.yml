@@ -1,0 +1,7 @@
+formatter.name: pretty
+suites:
+    app_specs:
+        spec_path: tests
+        spec_prefix: specs
+        namespace: App
+        src_path: App

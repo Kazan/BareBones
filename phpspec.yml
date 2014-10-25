@@ -4,4 +4,4 @@ suites:
         spec_path: tests
         spec_prefix: specs
         namespace: App
-        src_path: App
+        src_path: src

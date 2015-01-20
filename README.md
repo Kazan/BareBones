@@ -1,10 +1,15 @@
-BareBones Skeleton
-==================
+#BareBones Skeleton
 
-Tests go in `tests`, code goes in `src`. Have fun!
+**Usage:**
 
-Included by default:
+`composer create-project kazan/barebones <folder_name>`
 
-- PhpUnit 4.2
-- PhpSpec 2.0
+**Developing:**
+
+Tests go in `tests`, code goes in `src`, have fun!
+
+**Included:**
+
+- PHPUnit 4.2
+- PHPSpec 2.0
 - Symfony/Yaml
